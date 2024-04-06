@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:black;
+}
+.content{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.arrows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size:100px;
+    color: white;
+}
+.arrow:hover{
+    color:red;
+    cursor: pointer;
+}
+#ar1{
+    margin-right: 30px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+#ar2{
+    margin-left: 30px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.img{
+    height: 300px;
+    width: 300px;
+}
